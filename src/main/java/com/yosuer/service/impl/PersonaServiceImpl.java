@@ -5,7 +5,9 @@ import com.yosuer.repository.PersonaRepository;
 import com.yosuer.service.PersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PersonaServiceImpl implements PersonaService {
 
     @Autowired
