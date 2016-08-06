@@ -13,6 +13,10 @@ Contenido
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <p>Agregar personas</p>
+        
+        <br>
+        <h3>Personas: </h3>
         <#list personas as persona>
         <p>persona</p>
         </#list>
